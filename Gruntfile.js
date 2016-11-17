@@ -144,3 +144,4 @@ module.exports = function(grunt) {
   grunt.registerTask('test', ['jshint', 'connect:return500', 'jasmine', 'nodeunit']);
   grunt.registerTask('default', ['test', 'build-contrib']);
 };
+
